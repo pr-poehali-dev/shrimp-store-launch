@@ -20,9 +20,12 @@ const Hero = () => {
           </Button>
         </div>
 
-        <div className="mt-12 bg-orange-100 rounded-lg p-6 max-w-md mx-auto">
-          <p className="text-orange-800 font-semibold">🔥 Акция дня</p>
-          <p className="text-orange-700">Скидка 20% на креветки тигровые</p>
+        <div className="mt-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-lg p-6 max-w-lg mx-auto text-white shadow-2xl animate-pulse">
+          <p className="text-2xl font-bold mb-2">🦐 АКЦИЯ!</p>
+          <p className="text-xl font-semibold mb-1">
+            ПЕРВАЯ КРЕВЕТКА БЕСПЛАТНО
+          </p>
+          <p className="text-sm opacity-90">при заказе от 500₽</p>
         </div>
       </div>
     </section>

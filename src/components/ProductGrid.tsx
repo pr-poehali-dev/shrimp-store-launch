@@ -3,6 +3,17 @@ import ProductCard from "./ProductCard";
 const ProductGrid = () => {
   const products = [
     {
+      id: 0,
+      name: "Креветка в подарок 🎁",
+      description: "Королевская креветка бесплатно при заказе от 500₽",
+      price: 0,
+      originalPrice: 150,
+      image:
+        "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&h=300&fit=crop",
+      badge: "БЕСПЛАТНО",
+      badgeColor: "destructive" as const,
+    },
+    {
       id: 1,
       name: "Креветки королевские",
       description: "Крупные тигровые креветки, 16-20 штук на кг",
