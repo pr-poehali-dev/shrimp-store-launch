@@ -4,6 +4,14 @@ import Icon from "@/components/ui/icon";
 const Header = () => {
   return (
     <header className="bg-white shadow-sm border-b">
+      {/* Urgent notification banner */}
+      <div className="bg-gradient-to-r from-red-500 to-orange-500 text-white py-2 px-4 text-center animate-pulse">
+        <div className="flex items-center justify-center space-x-2 text-sm font-semibold">
+          <Icon name="Clock" size={16} />
+          <span>⚠️ ВНИМАНИЕ: До закрытия магазина осталось 15 дней!</span>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
